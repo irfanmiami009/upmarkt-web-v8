@@ -1,0 +1,99 @@
+/* Extra small devices (phones, 600px and down) xs */
+@media only screen and (max-width: 600px) {
+  .top-header-menu {
+  	text-align: center;
+  }
+  .topheader {
+  	height: unset;
+  }
+  .header {
+  	padding: 0 10px;
+  }
+  .menu {
+  	background-color: unset;
+  }
+  .navbar-collapse {
+  	height: unset;
+  }
+  .owl-theme .owl-nav {
+  	display: none !important;
+  }
+  .carousel-caption {
+  	width: 30%;
+  	bottom: 1rem;
+  }
+  .carousel-caption a {
+  	padding: 2.5px 5px;
+  }
+  .navbar-toggler:focus {
+  	box-shadow: unset !important;
+  }
+  .navbar-nav .nav-item {
+    margin-bottom: 0.25rem;
+    padding: 0.6rem; 
+    border-top: 1px solid #ddd; 
+    width: 100%;
+  }
+  .navbar-nav .dropdown-menu {
+    min-width: unset;
+  }
+  .product_overview li a{
+    font-size: 12px !important;
+  }
+  .product_overview li {
+    padding: 0 5px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) sm */
+@media only screen and (min-width: 600px) {
+  .top-header-menu {
+  	text-align: center;
+  }
+  .topheader {
+  	height: unset;
+  }
+  .navbar-collapse {
+  	height: unset;
+  }
+  .carousel-caption {
+  	width: 30%
+  	bottom: 1rem;
+  }
+  .navbar-toggler:focus {
+  	box-shadow: unset !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) md */
+@media only screen and (min-width: 768px) {
+  .navbar-expand-md .navbar-toggler {
+    display: block !important;
+  }
+  .nav-link {
+    font-size: 0.8rem;
+  }
+  .nav-item {
+    padding-right: 0.3rem;
+    padding-left: 0.4rem;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) lg */
+@media only screen and (min-width: 992px) {
+  	
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) xl */ 
+@media only screen and (min-width: 1200px) {
+  .top-header-menu {
+  	text-align: left;
+  }
+  /*.nav-item {
+  	margin-left: 1.1rem;
+  	margin-right: 1.1rem;
+  }*/
+  .nav-link {
+    font-size: 1.1rem;
+  }
+}
